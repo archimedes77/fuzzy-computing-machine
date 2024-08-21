@@ -13,7 +13,7 @@ def main():
     st.title("Fraud Detection App")
 
     # Step 1: Load the dataset
-    df = pd.read_csv('credit_card_data.csv')
+    df = pd.read_csv('creditcard.csv')
 
     # Step 2: Data Preprocessing
     le = LabelEncoder()
